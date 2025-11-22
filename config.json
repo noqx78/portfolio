@@ -1,0 +1,112 @@
+{
+    "name": "Noel",
+    "profilePicture": "https://github.com/noqx78.png",
+    "description": "16 years old. Love programming and learning new things. Doing an apprenticeship in Switzerland and building stuff I enjoy.",
+    "metadata": [
+        {
+            "title": "Noel Merz",
+            "description": "Portfolio"
+        }
+    ],
+    "navigation": [
+        {
+            "name": "Portfolio",
+            "link": "/"
+        },
+        {
+            "name": "Blog",
+            "link": "/blog"
+        }
+    ],
+    "socials": [
+        {
+            "name": "Github",
+            "image": "/github.svg",
+            "link": "https://github.com/noqx78",
+            "bgColor": "bg-gray-900",
+            "text": "white",
+            "customStyle": ""
+        },
+                {
+            "name": "Blog",
+            "image": "/book.svg",
+            "link": "/blog",
+            "bgColor": "bg-neutral-100",
+            "text": "black",
+            "customStyle": ""
+        }
+    ],
+    "techstack": [
+        {
+            "name": "TypeScript",
+            "logo": "/techstack/Typescript.svg"
+        },
+                {
+            "name": "Tailwind",
+            "logo": "/techstack/Tailwind.svg"
+        },
+        {
+            "name": "firebase",
+            "logo": "/techstack/Firebase.svg"
+        },
+        {
+            "name": "Nextjs",
+            "logo": "/techstack/Nextjs.svg"
+        },
+        {
+            "name": "Git",
+            "logo": "/techstack/Git.svg"
+        },
+        {
+            "name": "Python",
+            "logo": "/techstack/python.svg"
+        },
+        {
+            "name": "MySQL",
+            "logo": "/techstack/MySQL.svg"
+        }
+    ],
+    "projects": [
+            {
+            "name": "M346 Note App",
+            "image": "/bookBlack.svg",
+            "timeline": "Oct 2025 - Dec 2025",
+            "description": "Space Game made in Python usign PyGame library",
+            "link": "https://github.com/noqx78/M346-Notes-App",
+            "website": "https://m346.noelmerz.ch",
+            "tags": [
+                "Next.js",
+                "Tailwind",
+                "Typescript",
+                "Firebase",
+                "Shadcn/UI"
+            ]
+        },
+        {
+            "name": "M431 Space Game",
+            "image": "/projects/M431SpaceShooter.png",
+            "timeline": "Nov 2024 - Dec 2024",
+            "description": "Space Game made in Python usign PyGame library",
+            "link": "https://github.com/noahbachmann/M431_PythonGame",
+            "website": "",
+            "tags": [
+                "Python",
+                "Game",
+                "School Project"
+            ]
+        },
+        {
+            "name": "Powershell Password Manger",
+            "image": "/projects/powershellPasswordManager.png",
+            "timeline": "May 2025 - Jun 2024",
+            "description": "local password manager written using powershell",
+            "link": "https://github.com/noqx78/Powershell-PasswordManager",
+            "website": "",
+            "tags": [
+                "Powershell",
+                "Password Manager",
+                "School Project"
+            ]
+        }
+    ]
+}
