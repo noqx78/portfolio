@@ -102,6 +102,20 @@
             ]
         },
         {
+            "name": "Powershell Password Manger",
+            "image": "/projects/powershellPasswordManager.png",
+            "imageStyle": "",
+            "timeline": "May 2025 - Jun 2025",
+            "description": "local password manager written using powershell",
+            "link": "https://github.com/noqx78/Powershell-PasswordManager",
+            "website": "",
+            "tags": [
+                "Powershell",
+                "Password Manager",
+                "School Project"
+            ]
+        },
+        {
             "name": "M431 Space Game",
             "image": "/projects/M431SpaceShooter.png",
             "imageStyle": "",
@@ -112,20 +126,6 @@
             "tags": [
                 "Python",
                 "Game",
-                "School Project"
-            ]
-        },
-        {
-            "name": "Powershell Password Manger",
-            "image": "/projects/powershellPasswordManager.png",
-            "imageStyle": "",
-            "timeline": "May 2025 - Jun 2024",
-            "description": "local password manager written using powershell",
-            "link": "https://github.com/noqx78/Powershell-PasswordManager",
-            "website": "",
-            "tags": [
-                "Powershell",
-                "Password Manager",
                 "School Project"
             ]
         }
