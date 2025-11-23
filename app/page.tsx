@@ -14,12 +14,16 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import { ChevronRight } from "lucide-react";
+import { ModeToggle } from "@/components/ModeToggle";
 
 export default function Home() {
   return (
     <>
-      <div className="flex min-h-screen items-center justify-center font-sans bg-white">
-        <main className="flex flex-col items-center max-w-3xl w-full p-8 sm:p-12 bg-white">
+    <div className="fixed top-4 right-4 z-50">
+  <ModeToggle />
+</div>
+      <div className="flex min-h-screen items-center justify-center font-sans ">
+        <main className="flex flex-col items-center max-w-3xl w-full p-8 sm:p-12 ">
           <div className="flex flex-col sm:flex-row items-center gap-4 mb-6">
             <BlurFade delay={0.15}>
               <div className="w-24 h-24">
@@ -33,14 +37,14 @@ export default function Home() {
               </div>
             </BlurFade>
             <div>
-              <h1 className="text-3xl sm:text-4xl font-bold text-black">
+              <h1 className="text-3xl sm:text-4xl font-bold primary">
                 <TextAnimate animation="slideLeft" by="word" delay={0.1}>
                   {`Hey, I'm ${user.name}☃️`}
                 </TextAnimate>
 
               </h1>
 
-              <p className="text-lg sm:text-xl text-gray-600 mt-2">
+              <p className="text-lg sm:text-xl secondary mt-2">
                 <TextAnimate animation="slideUp" by="word" delay={0.1}>
                   {user.description}
                 </TextAnimate>
@@ -55,14 +59,14 @@ export default function Home() {
                   href={social.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex items-center gap-2 px-4 py-2 rounded-lg hover:opacity-80 transition text-${social.text} ${social.bgColor} ${social.customStyle}`}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg hover:opacity-80 transition ${social.tailwind}`}
                 >
                   <Image
                     src={social.image}
                     alt={social.name}
                     width={24}
                     height={24}
-                    className="invert"
+                    className={`${social.imageStyle}`}
                   />
                   <span className="text-sm font-medium">{social.name}</span>
                 </a>
@@ -74,7 +78,7 @@ export default function Home() {
           <div className="mt-12 w-full">
             <Dialog>
               <DialogTrigger asChild>
-                <h2 className="text-xl font-semibold text-black mb-4 cursor-pointer hover:opacity-80">
+                <h2 className="text-xl font-semibold secondary mb-4 cursor-pointer hover:opacity-80">
                   <BlurFade delay={0.7}>
                     <span className="inline-flex items-center gap-1">
                       {/* <ChevronRight /> */}
@@ -90,7 +94,7 @@ export default function Home() {
                 <div className="flex flex-col gap-4">
                   {Object.entries(user.techstack).map(([category, items]) => (
                     <div key={category}>
-                      <h3 className="capitalize font-medium text-sm text-gray-500 mb-2">
+                      <h3 className="capitalize font-medium text-sm secondary mb-2">
                         {category}
                       </h3>
                       <div className="flex flex-wrap gap-3">
@@ -127,7 +131,7 @@ export default function Home() {
 
 
           <div className="mt-12 w-full">
-            <h2 className="text-xl font-semibold text-black mb-4">
+            <h2 className="text-xl font-semibold secondary mb-4">
               <BlurFade delay={0.9}>
                 Projects
               </BlurFade>
@@ -144,6 +148,7 @@ export default function Home() {
                   website={project.website}
                   tags={project.tags}
                   delay={index}
+                  style={project.imageStyle}
                 />
               ))}
             </div>

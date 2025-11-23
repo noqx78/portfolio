@@ -23,17 +23,15 @@
             "name": "Github",
             "image": "/github.svg",
             "link": "https://github.com/noqx78",
-            "bgColor": "bg-gray-900",
-            "text": "white",
-            "customStyle": ""
+            "tailwind": " bg-popover-foreground text-white dark:text-black",
+            "imageStyle": "invert dark:invert-0"
         },
         {
             "name": "Blog",
             "image": "/book.svg",
             "link": "/blog",
-            "bgColor": "bg-neutral-100",
-            "text": "black",
-            "customStyle": ""
+            "tailwind": "",
+            "imageStyle": "invert dark:invert-0"
         }
     ],
     "techstack": {
@@ -82,10 +80,11 @@
         {
             "name": "M346 Note App",
             "image": "/bookBlack.svg",
+            "imageStyle": "dark:invert",
             "timeline": "Oct 2025 - Dec 2025",
             "description": "Notes app built with TypeScript using the Next.js framework and Firebase as a database.",
             "link": "https://github.com/noqx78/M346-Notes-App",
-            "website": "https://m346.noelmerz.ch",
+            "website": "https://m346.belastend.ch",
             "tags": [
                 "Next.js",
                 "Tailwind",
@@ -97,8 +96,9 @@
         {
             "name": "M431 Space Game",
             "image": "/projects/M431SpaceShooter.png",
+            "imageStyle": "",
             "timeline": "Nov 2024 - Dec 2024",
-            "description": "Space Game made in Python usign PyGame library",
+            "description": "Space game built in Python with the PyGame lib",
             "link": "https://github.com/noahbachmann/M431_PythonGame",
             "website": "",
             "tags": [
@@ -110,6 +110,7 @@
         {
             "name": "Powershell Password Manger",
             "image": "/projects/powershellPasswordManager.png",
+            "imageStyle": "",
             "timeline": "May 2025 - Jun 2024",
             "description": "local password manager written using powershell",
             "link": "https://github.com/noqx78/Powershell-PasswordManager",

@@ -19,7 +19,7 @@ interface TechStackItemProps {
 export default function TechStackItem({ name, logo, delay = 0, additionalDelay = 0}: TechStackItemProps) {
   return (
     <BlurFade delay={0.1 * delay + additionalDelay} duration={0.2}>
-    <Card className="w-20 h-20 shadow-none">
+    <Card className="w-20 h-20 shadow-none bg-background">
       <CardContent className="p-2 flex items-center justify-center h-full">
         <Image
           src={logo}

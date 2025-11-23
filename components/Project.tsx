@@ -25,16 +25,17 @@ interface ProjectItemProps {
     website: string;
     tags: string[];
     delay: number;
+    style: string;
 }
 
 
-export default function Project({ name, image, timeline, description, link, website, tags, delay }: ProjectItemProps) {
+export default function Project({ name, image, timeline, description, link, website, tags, delay,style }: ProjectItemProps) {
     return (
         <BlurFade delay={0.1 * delay + 1.2}>
-            <Card className="shadow-none">
+            <Card className="shadow-none bg-background">
                 <CardHeader>
                     <span className="flex items-center gap-2">
-                        <Image src={image} alt={`Project Image of ${name}`} width={32} height={32} />
+                        <Image className={style} src={image} alt={`Project Image of ${name}`} width={32} height={32} />
                         <CardTitle>{name}</CardTitle>
                     </span>
                     <CardDescription>{timeline}</CardDescription>
@@ -45,7 +46,7 @@ export default function Project({ name, image, timeline, description, link, webs
                         {tags.map((tag) => (
                             <span
                                 key={tag}
-                                className="px-3 py-1 rounded-md bg-gray-100 text-gray-800 font-sans text-sm font-medium"
+                                className="px-3 py-1 rounded-md dark:bg-popover bg-gray-100 dark:primary font-sans text-sm font-medium"
                             >
                                 {tag}
                             </span>
@@ -55,7 +56,7 @@ export default function Project({ name, image, timeline, description, link, webs
                     <div className="mt-4 flex gap-1">
                         <Link href={link} target="_blank" rel="noopener noreferrer">
                             <Button className="shadow-none" size="sm">
-                                <Image className="invert" src={GithubIcon2} alt="Github" width={16} height={16} /> Github
+                                <Image className={`invert dark:invert-0 ${style}`} src={GithubIcon2} alt="Github" width={16} height={16} /> Github
                             </Button>
                         </Link>
                         {website && (
