@@ -1,7 +1,7 @@
 {
     "name": "Noel",
     "profilePicture": "https://github.com/noqx78.png",
-    "description": "16 years old. Love programming and learning new things. Doing an apprenticeship in Switzerland and building stuff I enjoy.",
+    "description": "16 years old, interested in programming. Doing an apprenticeship in Switzerland and enjoy building projects.",
     "metadata": [
         {
             "title": "Noel - Portfolio",
@@ -41,6 +41,10 @@
             {
                 "name": "TypeScript",
                 "logo": "/techstack/Typescript.svg"
+            },
+            {
+                "name": "/C#",
+                "logo": "/techstack/Csharp.svg"
             },
             {
                 "name": "Python",

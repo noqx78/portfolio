@@ -13,6 +13,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import { ChevronRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -75,7 +76,10 @@ export default function Home() {
               <DialogTrigger asChild>
                 <h2 className="text-xl font-semibold text-black mb-4 cursor-pointer hover:opacity-80">
                   <BlurFade delay={0.7}>
-                    Tech Stack
+                    <span className="inline-flex items-center gap-1">
+  {/* <ChevronRight /> */ }
+  Tech Stack
+</span>
                   </BlurFade>
                 </h2>
               </DialogTrigger>
