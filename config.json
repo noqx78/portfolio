@@ -4,7 +4,7 @@
     "description": "16 years old. Love programming and learning new things. Doing an apprenticeship in Switzerland and building stuff I enjoy.",
     "metadata": [
         {
-            "title": "Noel Merz",
+            "title": "Noel - Portfolio",
             "description": "Portfolio"
         }
     ],
@@ -27,7 +27,7 @@
             "text": "white",
             "customStyle": ""
         },
-                {
+        {
             "name": "Blog",
             "image": "/book.svg",
             "link": "/blog",
@@ -36,38 +36,46 @@
             "customStyle": ""
         }
     ],
-    "techstack": [
-        {
-            "name": "TypeScript",
-            "logo": "/techstack/Typescript.svg"
-        },
-                {
-            "name": "Tailwind",
-            "logo": "/techstack/Tailwind.svg"
-        },
-        {
-            "name": "firebase",
-            "logo": "/techstack/Firebase.svg"
-        },
-        {
-            "name": "Nextjs",
-            "logo": "/techstack/Nextjs.svg"
-        },
-        {
-            "name": "Git",
-            "logo": "/techstack/Git.svg"
-        },
-        {
-            "name": "Python",
-            "logo": "/techstack/Python.svg"
-        },
-        {
-            "name": "MySQL",
-            "logo": "/techstack/MySQL.svg"
-        }
-    ],
-    "projects": [
+    "techstack": {
+        "languages": [
             {
+                "name": "TypeScript",
+                "logo": "/techstack/Typescript.svg"
+            },
+            {
+                "name": "Python",
+                "logo": "/techstack/Python.svg"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "Next.js",
+                "logo": "/techstack/Nextjs.svg"
+            },
+            {
+                "name": "Tailwind CSS",
+                "logo": "/techstack/Tailwind.svg"
+            }
+        ],
+        "databases": [
+            {
+                "name": "MySQL",
+                "logo": "/techstack/MySQL.svg"
+            },
+            {
+                "name": "Firebase",
+                "logo": "/techstack/Firebase.svg"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git",
+                "logo": "/techstack/Git.svg"
+            }
+        ]
+    },
+    "projects": [
+        {
             "name": "M346 Note App",
             "image": "/bookBlack.svg",
             "timeline": "Oct 2025 - Dec 2025",

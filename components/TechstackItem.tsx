@@ -13,11 +13,12 @@ interface TechStackItemProps {
   name: string;
   logo: string;
   delay?: number;
+  additionalDelay?: number
 }
 
-export default function TechStackItem({ name, logo, delay = 0}: TechStackItemProps) {
+export default function TechStackItem({ name, logo, delay = 0, additionalDelay = 0}: TechStackItemProps) {
   return (
-    <BlurFade delay={0.1 * delay + 1} duration={0.2}>
+    <BlurFade delay={0.1 * delay + additionalDelay} duration={0.2}>
     <Card className="w-20 h-20 shadow-none">
       <CardContent className="p-2 flex items-center justify-center h-full">
         <Image
