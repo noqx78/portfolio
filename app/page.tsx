@@ -34,8 +34,8 @@ export default function Home() {
             </BlurFade>
             <div>
               <h1 className="text-3xl sm:text-4xl font-bold text-black">
-                <TextAnimate animation="slideLeft" by="character" delay={0.1}>
-                  {`Hi, I'm ${user.name}`}
+                <TextAnimate animation="slideLeft" by="word" delay={0.1}>
+                  {`Hey, I'm ${user.name}☃️`}
                 </TextAnimate>
 
               </h1>
@@ -77,9 +77,9 @@ export default function Home() {
                 <h2 className="text-xl font-semibold text-black mb-4 cursor-pointer hover:opacity-80">
                   <BlurFade delay={0.7}>
                     <span className="inline-flex items-center gap-1">
-  {/* <ChevronRight /> */ }
-  Tech Stack
-</span>
+                      {/* <ChevronRight /> */}
+                      Tech Stack
+                    </span>
                   </BlurFade>
                 </h2>
               </DialogTrigger>
