@@ -38,41 +38,49 @@
         "languages": [
             {
                 "name": "TypeScript",
-                "logo": "/techstack/Typescript.svg"
+                "logo": "/techstack/Typescript.svg",
+                "invert": false
             },
             {
                 "name": "/C#",
-                "logo": "/techstack/Csharp.svg"
+                "logo": "/techstack/Csharp.svg",
+                "invert": false
             },
             {
                 "name": "Python",
-                "logo": "/techstack/Python.svg"
+                "logo": "/techstack/Python.svg",
+                "invert": false
             }
         ],
         "frameworks": [
             {
                 "name": "Next.js",
-                "logo": "/techstack/Nextjs.svg"
+                "logo": "/techstack/Nextjs.svg",
+                "invert": true
             },
             {
                 "name": "Tailwind CSS",
-                "logo": "/techstack/Tailwind.svg"
+                "logo": "/techstack/Tailwind.svg",
+                "invert": false
             }
         ],
         "databases": [
             {
                 "name": "MySQL",
-                "logo": "/techstack/MySQL.svg"
+                "logo": "/techstack/MySQL.svg",
+                "invert": false
             },
             {
                 "name": "Firebase",
-                "logo": "/techstack/Firebase.svg"
+                "logo": "/techstack/Firebase.svg",
+                "invert": false
             }
         ],
         "tools": [
             {
                 "name": "Git",
-                "logo": "/techstack/Git.svg"
+                "logo": "/techstack/Git.svg",
+                "invert": false
             }
         ]
     },

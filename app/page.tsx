@@ -105,6 +105,7 @@ export default function Home() {
                             logo={tech.logo}
                             delay={index}
                             additionalDelay={0}
+                            invert={tech.invert}
                           />
                         ))}
                       </div>
@@ -124,6 +125,7 @@ export default function Home() {
                     logo={tech.logo}
                     delay={index}
                     additionalDelay={1}
+                    invert={tech.invert}
                   />
                 ))}
             </div>

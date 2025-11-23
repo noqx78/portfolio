@@ -14,9 +14,10 @@ interface TechStackItemProps {
   logo: string;
   delay?: number;
   additionalDelay?: number
+  invert: boolean
 }
 
-export default function TechStackItem({ name, logo, delay = 0, additionalDelay = 0}: TechStackItemProps) {
+export default function TechStackItem({ name, logo, delay = 0, additionalDelay = 0, invert}: TechStackItemProps) {
   return (
     <BlurFade delay={0.1 * delay + additionalDelay} duration={0.2}>
     <Card className="w-20 h-20 shadow-none bg-background">
@@ -26,6 +27,7 @@ export default function TechStackItem({ name, logo, delay = 0, additionalDelay =
           alt={name}
           width={32}
           height={32}
+          className={`${invert ? "invert-0 dark:invert" : ""} transition-all duration-300`}
         />
       </CardContent>
     </Card>
