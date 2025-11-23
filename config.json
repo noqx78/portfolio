@@ -42,8 +42,8 @@
                 "invert": false
             },
             {
-                "name": "/C#",
-                "logo": "/techstack/Csharp.svg",
+                "name": "Javascript",
+                "logo": "/techstack/Javascript.svg",
                 "invert": false
             },
             {
