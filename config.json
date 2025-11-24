@@ -23,16 +23,10 @@
             "name": "Github",
             "image": "/github.svg",
             "link": "https://github.com/noqx78",
-            "tailwind": " bg-popover-foreground text-white dark:text-black",
-            "imageStyle": "invert dark:invert-0"
-        },
-        {
-            "name": "Blog",
-            "image": "/book.svg",
-            "link": "/blog",
-            "tailwind": "",
+            "tailwind": " bg-popover-foreground text-white dark:text-black ",
             "imageStyle": "invert dark:invert-0"
         }
+
     ],
     "techstack": {
         "languages": [
